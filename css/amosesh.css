@@ -1,0 +1,107 @@
+@font-face{
+    font-family: 'koodak';
+    src: url(../fonts/KoodakBold.eot?#)format(eot),url(../fonts/KoodakBold.ttf)format(truetypw),url(../fonts/KoodakBold.woff)format(ewoff);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Nazanin';
+    src: url(../fonts/Nazanin.eot?#)format(eot),url(../fonts/Nazanin.ttf)format(truetypw),url(../fonts/Nazanin.woff)format(ewoff);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'yekan';
+    src: url(../fonts/yekan.eot?#)format(eot),url(../fonts/yekan.ttf)format(truetypw),url(../fonts/yekan.woff)format(ewoff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* navbar */
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: rgb(201, 10, 10);
+}
+
+
+.nav-link{
+    font-family: 'koodak' !important;
+
+}
+.navbar-brand{
+    font-family: 'yekan' !important;
+
+}
+
+
+
+/* end navbar */
+
+
+/* home */
+
+
+ .landing{
+
+     position: relative;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100vh;
+     z-index: -1;
+   
+
+ }
+  .home_warp{
+     position: absolute
+     top 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+  
+      
+  }
+
+  .home-inner{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url(../images/root/back1.jpg);
+      background-size: cover;
+      background-position: center center;
+      
+
+  }
+  .caption{
+      width: 100%;
+      position: absolute;
+      top: 40%;
+      z-index: 1;
+      color: #fff;
+  }
+  .caption h1 {
+      font-family: 'yekan';
+      font-size: 4rem;
+      font-weight: 700;
+      text-shadow: 0.1rem 0.1rem 0.8rem #000;
+      padding-bottom: 1rem;
+      
+  }
+  .caption h3{
+      font-family: 'koodak';
+      font-size: 2rem;
+      text-shadow: 0.1rem 0.1rem 0.5rem #000;
+      padding-bottom: 1.6rem;
+  }
+  .caption .btn-stsrt{
+    font-family: 'yekan';
+    font-size: 1.2rem;
+    border-width: 0.1rem;
+    border-radius: 0;
+    padding: 0.5rem 1rem;
+    
+  }
+
+
+/* end home */

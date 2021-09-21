@@ -1,0 +1,400 @@
+@font-face{
+    font-family: 'koodak';
+    src: url(../fonts/KoodakBold.eot?#)format(eot),url(../fonts/KoodakBold.ttf)format(truetypw),url(../fonts/KoodakBold.woff)format(ewoff);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Nazanin';
+    src: url(../fonts/Nazanin.eot?#)format(eot),url(../fonts/Nazanin.ttf)format(truetypw),url(../fonts/Nazanin.woff)format(ewoff);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'yekan';
+    src: url(../fonts/yekan.eot?#)format(eot),url(../fonts/yekan.ttf)format(truetypw),url(../fonts/yekan.woff)format(ewoff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* navbar */
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: rgb(201, 10, 10);
+}
+
+
+.nav-link{
+    font-family: 'koodak' !important;
+
+}
+.navbar-brand{
+    font-family: 'yekan' !important;
+
+}
+
+
+
+/* end navbar */
+
+
+/* home */
+
+
+ .landing{
+
+     position: relative;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100vh;
+     z-index: -1;
+   
+
+ }
+  .home_warp{
+     position: absolute
+     top 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+  
+      
+  }
+
+  .home-inner{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url(../images/root/back1.jpg);
+      background-size: cover;
+      background-position: center center;
+
+  }
+  .caption{
+      width: 100%;
+      position: absolute;
+      top: 40%;
+      z-index: 1;
+      color: #fff;
+  }
+  .caption h1 {
+      font-family: 'yekan';
+      font-size: 4rem;
+      font-weight: 700;
+      text-shadow: 0.1rem 0.1rem 0.8rem #000;
+      padding-bottom: 1rem;
+      
+  }
+  .caption h3{
+      font-family: 'koodak';
+      font-size: 2rem;
+      text-shadow: 0.1rem 0.1rem 0.5rem #000;
+      padding-bottom: 1.6rem;
+  }
+  .caption .btn-stsrt{
+    font-family: 'yekan';
+    font-size: 1.2rem;
+    border-width: 0.1rem;
+    border-radius: 0;
+    padding: 0.5rem 1rem;
+  }
+
+
+/* end home */
+/* abut Computer_Camp */
+.area {
+    margin: 0 auto;
+    padding: 4rem 2rem 1rem;
+}
+
+.area h2 {
+    font-size: 2.4rem;
+    font-family: 'yekan';
+}
+
+.area p {
+    font-family: 'nazanin';
+}
+
+.btn-secondary {
+    border-width: 0.1rem;
+    border-radius: 0;
+    font-size: 1.2rem;
+    padding: 0.6rem 1.2rem;
+    margin: 1rem;
+    color: #fff;
+    background-color: #bb1e1e;
+    border-color: #bb1e1e;
+}
+
+.btn-secondary:hover {
+    background-color: #870d0d;
+    border-color: #870d0d;
+}
+
+
+/* end abut Computer_Camp */
+
+/*servises*/
+.jumbotron {
+    margin-bottom: 0;
+    padding: 2rem 0 3.5rem;
+    border-radius: 0;
+    
+
+}
+
+h2.title {
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: 'yekan';
+   
+}
+
+.underline {
+    width: 22rem;
+    height: 0.2rem;
+    background-color: #bb1e1e;
+    margin: 2rem auto 1rem;
+
+}
+
+.service i {
+    color: rgb(58, 190, 184);
+
+    
+}
+
+.service h3{
+font-family: yekan;
+font-size: 1.4rem;
+padding-bottom: 0.4rem;
+font-weight: bold;
+}
+
+
+.service p{
+    font-family: nazanin;
+    font-size: 1.1rem;
+}
+/* end servises */
+
+/* product group */
+
+
+.group-background {
+    position: relative;
+
+}
+
+.fixet-wrap {
+    clip: rect(0,auto,auto,0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1 !important;
+}
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-image: url(../images/root/back2.jpg);
+    background-size: cover;
+    background-position: center centers;
+}
+
+
+
+.group-background .dark{
+    background-color: rgba(0,0,0,0.7);
+    color: #fff;
+    padding: 7rem 2rem;
+}
+
+/* end product group */
+
+/* Teachers */
+
+#teachers img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+blockquote {
+    text-align: justify;
+    font-family: 'koodak';
+    font-size: 1rem;
+}
+
+blockquote i {
+    color: #c90707;
+    margin: 1rem;
+}
+
+.teacher-hr {
+    border-bottom: 0.1rem solid #750b0b;
+}
+
+
+/* End Teachers */
+.bg-white h2 {
+    font-size: 2.5rem;
+     
+}
+
+/* namone */
+#qq{
+  font-size: 3rem;
+}
+#titi {
+    font-size: 2rem;
+    font-family: nazanin;
+    margin: 1.2rem;
+}
+/* end namone */
+
+#vvv img {
+    width: 100%;
+    border-radius: 50%;
+
+}
+/* Footer */
+
+footer {
+    padding: 2rem 0;
+    background-color: #343a40;
+    color: #fff;
+}
+
+footer img {
+    height: 3rem;
+    margin: 1.6rem;
+}
+
+footer p {
+    font-family: 'yekan';
+}
+
+footer i {
+    color: #fff;
+    font-size: 1.8rem;
+    margin: 1.2rem 0.5rem 0 0;
+}
+
+footer i:hover {
+    color: #1ebba3;
+}
+
+.footer-hr {
+    width: 100%;
+    border-top: 0.2rem solid #666b71;
+    margin-top: 3rem;
+}
+
+.aryasoft-title {
+    color: #1ebba3;
+}
+
+
+/* Fab Btn */
+
+.btn-group-fab {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: auto;
+}
+
+.btn-group-fab .btn {
+    border-radius: 50%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    bottom: 0;
+}
+
+.btn-group-fab .btn-main {
+    width: 51px;
+    height: 50px;
+    z-index: 2;
+    line-height: 2;
+}
+
+.btn-group-fab .btn-sub {
+    right: 47.5%;
+    bottom: 0;
+    z-index: 1;
+    margin-right: -20px;
+    transition: all 0.6s;
+}
+
+.btn-group-fab.active .btn-sub:nth-child(2) {
+    bottom: 60px;
+}
+
+.btn-group-fab.active .btn-sub:nth-child(3) {
+    bottom: 110px;
+}
+
+.btn-group-fab.active .btn-sub:nth-child(4) {
+    bottom: 160px;
+}
+
+
+/* End Fab Btn */
+
+/*  */
+::selection {
+    color: #fff;
+    background: #ff0404;
+}
+::selection {
+    color: #fff;
+    background: #ff0404;
+}
+
+/*  */
+/* body {
+    margin: 0;
+    padding: 0;
+    background: #e84114;
+
+} */
+.serch-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background: #2f3640;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
